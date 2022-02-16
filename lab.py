@@ -34,7 +34,7 @@ for i in range(len(t)-1):
 ### Q2: Write a Python program to remove duplicates from a tuple
 t = ("A", "B", "C", "A")
 
-def reomveTuble(t):
+def reomveTuble(t:tuple):
     t2 = list(t)
     for i in range(len(t2)-1):
         if t2.count(t2[i])>1:
