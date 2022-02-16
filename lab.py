@@ -28,7 +28,7 @@ print("list of the odd numbers between 1200 & 2000 with 125 steps =", oddNum)
 t = ("A", "B", "C", "A")
 for i in range(len(t)-1):
     if t.count(t[i])>1:
-        print("index of the duplicate element = ",i)
+        print("index of the duplicated element = ", i)
 
 #--------------------------------------------------#
 ### Q2: Write a Python program to remove duplicates from a tuple
