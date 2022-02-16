@@ -1,4 +1,4 @@
-import math
+
 #A1:
 def sumNumber(nums):
     total=0
@@ -16,6 +16,6 @@ def largNumber(nums):
 largNumber([1,3,6,2,7])
 #A3
 def oddNumber():
-    newList=[num for num in range(1200,2000,125) if  math.remainder(num, 2)!=0.0]
-    print(newList)
+    print([num for num in range(1200,2000,125) if  num%2!=0])
+    
 oddNumber()
